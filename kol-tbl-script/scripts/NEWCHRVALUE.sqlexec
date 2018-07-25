@@ -1,0 +1,24 @@
+{
+	"Description": "Generate NEW_CHAR_VALUE table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "NEW_CHAR_VALUE",
+	"Scripts": {
+		"New char value table generator": "NEW_CHR_VALUE.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"NewChrValue"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

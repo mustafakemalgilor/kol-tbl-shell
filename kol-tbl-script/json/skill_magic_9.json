@@ -1,0 +1,23 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v2190 columns",
+			"COUNT": "14",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Name": "uint8",
+				"Description": "string",
+				"ValidGroup": "uint8",
+				"NationChange": "uint8",
+				"MonsterNum": "int32",
+				"TargetChange": "uint8",
+				"StateChange": "uint8",
+				"Radius": "uint8",
+				"HitRate": "uint8",
+				"Duration": "int32",
+				"AddDamage": "uint8",
+				"Vision": "uint8",
+				"NeedItem": "uint8"
+			}
+		}
+	]
+}

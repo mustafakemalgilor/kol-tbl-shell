@@ -1,0 +1,24 @@
+{
+	"Description": "Generate MON table.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "MON",
+	"Scripts": {
+		"Warpinfo table generator": "MON.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"MON"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

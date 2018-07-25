@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\File IO">
+      <UniqueIdentifier>{8b8ab22b-7f8e-45ef-866e-d5c20743f7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\File IO">
+      <UniqueIdentifier>{c7992a93-5bba-4c06-9c52-d5cb2f1b8d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{c8f6e86c-a1c8-4a9b-b580-845a93ebcb28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Column descriptions">
+      <UniqueIdentifier>{d5b88f76-e1ff-421e-9cfa-ef7a93f7eeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scripts">
+      <UniqueIdentifier>{32469744-314b-4533-8dbd-5a7021b92909}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KOLFileDecryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KOLDesEncryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KOLTableBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\FileBase.h">
+      <Filter>Header Files\File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="io\FileReader.h">
+      <Filter>Header Files\File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="io\FileWriter.h">
+      <Filter>Header Files\File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="ci_string.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlitedb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kol-tbl-script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KOLFileDecryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KOLTableBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\FileBase.cpp">
+      <Filter>Source Files\File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="io\FileReader.cpp">
+      <Filter>Source Files\File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="io\FileWriter.cpp">
+      <Filter>Source Files\File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlitedb.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ci_string.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\item_ext.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="json\item_org.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="scripts\ITEM.sqlexec">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\ITEM_GENERIC.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\ITEM_UNIQUE.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="json\cloak.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="scripts\ITEM_GENERIC_DARK.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\ITEM_UNIQUE_DARK.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\ITEMSELL.sqlexec">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\ITEMSELL_TABLE.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\NEW_CHR_VALUE.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\NEWCHRVALUE.sqlexec">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\WARPINFO.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\WARPINFO.sqlexec">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\K_NPC_US.SQL">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="scripts\K_NPC_US.sqlexec">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="json\itemsell_table.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="json\k_npc_us.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="json\newchrvalue.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+    <None Include="json\warpinfo.json">
+      <Filter>Resource Files\Column descriptions</Filter>
+    </None>
+  </ItemGroup>
+</Project>

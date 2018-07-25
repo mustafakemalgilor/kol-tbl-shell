@@ -1,0 +1,36 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "26",
+      "COLUMNS": {
+        "nID": "int132",
+        "nSellingGroup": "int32",
+        "nItemID1": "int32",
+        "nItemID2": "int32",
+        "nItemID3": "int32",
+        "nItemID4": "int32",
+        "nItemID5": "int32",
+        "nItemID6": "int32",
+        "nItemID7": "int32",
+        "nItemID8": "int32",
+        "nItemID9": "int32",
+        "nItemID10": "int32",
+        "nItemID11": "int32",
+        "nItemID12": "int32",
+        "nItemID13": "int32",
+        "nItemID14": "int32",
+        "nItemID15": "int32",
+        "nItemID16": "int32",
+        "nItemID17": "int32",
+        "nItemID18": "int32",
+        "nItemID19": "int32",
+        "nItemID20": "int32",
+        "nItemID21": "int32",
+        "nItemID22": "int32",
+        "nItemID23": "int32",
+        "nItemID24": "int32"
+      }
+    }
+  ]
+}

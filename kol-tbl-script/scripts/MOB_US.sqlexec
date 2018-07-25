@@ -1,0 +1,24 @@
+{
+	"Description": "Generate MOB_US table.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "MOB_US",
+	"Scripts": {
+		"Warpinfo table generator": "MOB_US.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"MOB_US"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

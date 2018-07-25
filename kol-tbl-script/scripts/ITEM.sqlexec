@@ -1,0 +1,37 @@
+{
+	"Description": "Generate ITEM table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "ITEM",
+	"Scripts": {
+		"PRE-EXEC":"ITEM_PREEXEC.SQL",
+		"Unique item generator": "ITEM_UNIQUE.sql",
+		"Normal item generator": "ITEM_GENERIC.sql",
+		"Unique item generator": "ITEM_UNIQUE_DARK.sql",
+		"Normal item generator": "ITEM_GENERIC_DARK.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"Item_Org_Us"
+		},
+		{
+			"Name":"{EXTENSION_TABLE_NAME}",
+			"Value":"Item_Ext_$_Us"
+		}
+		,
+		{
+			"Name":"{EXTENSION_TABLE_IDX}",
+			"Value":"$"
+		}
+	],	
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "23"
+		}
+	]
+}

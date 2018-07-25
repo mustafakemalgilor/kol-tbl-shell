@@ -1,0 +1,24 @@
+{
+	"Description": "Generate NPC_US table.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "NPC_US",
+	"Scripts": {
+		"Warpinfo table generator": "NPC_US.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"npc_us"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

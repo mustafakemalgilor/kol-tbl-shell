@@ -1,0 +1,28 @@
+{
+	"Description": "Generate QUEST_HELPER table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "QUEST_HELPER",
+	"Scripts": {
+		"Warpinfo table generator": "QUEST_HELPER.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"quest_helper_us"
+		},
+		{
+			"Name":"{AUX_TABLE_NAME}",
+			"Value" :"quest_guide_us"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

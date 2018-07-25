@@ -1,0 +1,13 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v2190 columns",
+			"COUNT": "3",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"WarpType": "uint8",
+				"KickDistance": "int32"
+			}
+		}
+
+	]
+}

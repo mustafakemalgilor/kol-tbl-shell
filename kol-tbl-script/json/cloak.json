@@ -1,0 +1,21 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "10",
+      "COLUMNS": {
+        "CapeIndex": "int16",
+        "Name": "string",
+        "BuyPrice": "int32",
+        "Duration": "int32",
+        "Grade": "uint8",
+        "BuyLoyalty": "int32",
+        "Flag": "uint8",
+        "Description": "string",
+        "CurrencyType": "uint8",
+        "Castellan": "uint8"
+
+      }
+    }
+  ]
+}

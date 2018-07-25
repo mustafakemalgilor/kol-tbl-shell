@@ -1,0 +1,15 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "5",
+      "COLUMNS": {
+        "sSid": "uint16",
+        "Name": "string",
+        "sPid": "uint16",
+        "isBoss":"bool",
+        "HpBarCount":"uint8"
+      }
+    }
+  ]
+}

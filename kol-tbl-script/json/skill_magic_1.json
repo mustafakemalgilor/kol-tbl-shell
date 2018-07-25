@@ -1,0 +1,24 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v2190 columns",
+			"COUNT": "14",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Type": "string",
+				"HitRate": "string",
+				"Hit": "string",
+				"AddDamage": "int32",
+				"Delay": "int32",
+				"ComboType": "int32",
+				"ComboCount": "int32",
+				"ComboDamage": "int32",
+				"Range": "int32",
+				"Unknown1": "int32",
+				"Unknown2": "int32",
+				"Unknown3": "int32",
+				"Unknown4": "int32"
+			}
+		}
+
+	]
+}

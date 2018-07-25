@@ -1,0 +1,16 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "6",
+      "COLUMNS": {
+        "GuideIndex": "uint32",
+        "Level": "int32",
+        "ExpPercent":"int32",
+        "QuestName": "string",
+        "QuestStory":"string",
+        "QuestRequirements":"string"
+      }
+    }
+  ]
+}

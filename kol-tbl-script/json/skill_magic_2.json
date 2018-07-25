@@ -1,0 +1,16 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v2190 columns",
+			"COUNT": "6",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"HitType": "string",
+				"HitRate": "string",
+				"AddDamage": "int32",
+				"AddRange": "int32",
+				"NeedArrow": "int32"
+			}
+		}
+
+	]
+}

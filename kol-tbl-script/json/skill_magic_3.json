@@ -1,0 +1,17 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v2190 columns",
+			"COUNT": "7",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Radius": "string",
+				"DirectType": "string",
+				"FirstDamage": "int32",
+				"TimeDamage": "int32",
+				"Duration": "int32",
+				"Attribute": "int32"
+			}
+		}
+
+	]
+}

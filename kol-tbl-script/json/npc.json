@@ -1,0 +1,17 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "7",
+      "COLUMNS": {
+        "sSid": "uint16",
+        "Name": "string",
+        "sPid": "uint16",
+        "Unknown1":"uint32",
+        "Unknown2":"uint32",
+        "Unknown3":"uint32",
+        "Unknown4":"uint32"
+      }
+    }
+  ]
+}

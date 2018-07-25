@@ -1,0 +1,30 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "20",
+      "COLUMNS": {
+        "nID": "int32",
+        "strName": "string",
+        "bStr": "uint8",
+        "bSta": "uint8",
+        "bDex": "uint8",
+        "bInt": "uint8",
+        "bCha": "uint8",
+        "bUnspent": "uint8",
+        "nItemRightHand": "int32",
+        "nItemLeftHand": "int32",
+        "nItemBreast": "int32",
+        "nItemPads": "int32",
+        "nUnknown1": "int32",
+        "nItemGauntlet": "int32",
+        "nItemBoots": "int32",
+        "nItemHelmet": "int32",
+        "nUnknown2": "int32",
+        "nUnknown3": "int32",
+        "nUnknown4": "int32",
+        "nUnknown5": "int32"
+      }
+    }
+  ]
+}

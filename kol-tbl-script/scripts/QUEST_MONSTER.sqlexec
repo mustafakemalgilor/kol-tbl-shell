@@ -1,0 +1,24 @@
+{
+	"Description": "Generate QUEST_MONSTER table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "QUEST_MONSTER",
+	"Scripts": {
+		"Warpinfo table generator": "QUEST_MONSTER.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"quest_monster_exchange"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

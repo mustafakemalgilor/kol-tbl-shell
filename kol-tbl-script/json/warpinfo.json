@@ -1,0 +1,16 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "6",
+      "COLUMNS": {
+        "WarpIndex": "int16",
+        "Name": "string",
+        "LevelMin": "int32",
+        "LevelMax": "int32",
+        "ZoneImageDXT": "uint8",
+        "Description": "int32"  
+      }
+    }
+  ]
+}

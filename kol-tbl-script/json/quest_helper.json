@@ -1,0 +1,30 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "20",
+      "COLUMNS": {
+        "HelperIndex": "uint32",
+        "MessageType": "uint8",
+        "Level":"uint8",
+        "Experience": "int64",
+        "Unknown1":"uint32",
+        "Class":"uint8",
+        "Nation":"uint8",
+        "QuestType":"uint8",
+       	"ZoneIndex":"uint8",
+       	"NpcSsid": "int32",
+       	"EventDataIndex" : "int32",
+       	"EventStatus":"uint8",
+       	"EventTriggerIndex":"int32",
+       	"EventCompleteIndex":"int32",
+       	"ExchangeIndex":"uint32",
+       	"TalkIndex":"uint32",
+       	"LuaFilename":"string",
+       	"GuideIndex":"int32",
+       	"NpcDescIndex":"int32",
+       	"Unknown2":"uint8"
+      }
+    }
+  ]
+}

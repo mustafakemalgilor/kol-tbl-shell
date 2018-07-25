@@ -1,0 +1,14 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "4",
+      "COLUMNS": {
+        "sSid": "uint16",
+        "Name": "string",
+        "sPid": "uint16",
+        "isBoss":"bool"
+      }
+    }
+  ]
+}

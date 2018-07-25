@@ -1,0 +1,31 @@
+{
+  "COLUMNSET": [
+    {
+      "DESCRIPTION": "v2190 columns",
+      "COUNT": "21",
+      "COLUMNS": {
+        "QuestIndex": "uint32",
+        "Group1A": "int32",
+        "Group1B":"int32",
+        "Group1C": "int32",
+        "Group1D":"int32",
+        "Group1Qty":"int32",
+        "Group2A": "int32",
+        "Group2B":"int32",
+        "Group2C": "int32",
+        "Group2D":"int32",
+        "Group2Qty":"int32",
+        "Group3A": "int32",
+        "Group3B":"int32",
+        "Group3C": "int32",
+        "Group3D":"int32",
+        "Group3Qty":"int32",
+        "Group4A": "int32",
+        "Group4B":"int32",
+        "Group4C": "int32",
+        "Group4D":"int32",
+        "Group4Qty":"int32"
+      }
+    }
+  ]
+}
