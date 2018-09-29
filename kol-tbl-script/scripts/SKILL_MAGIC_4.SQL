@@ -1,0 +1,37 @@
+
+SELECT
+IO.MagicNum as 'iNum',
+'empty' as 'Name',
+'empty' as 'Description',
+IO.BuffType as 'BuffType',
+IO.Radius as 'Radius',
+IO.Duration as 'Duration',
+IO.AttackSpeed as 'AttackSpeed',
+IO.Speed as 'Speed',
+IO.AC as 'AC',
+IO.ACPct as 'ACPct',
+IO.Attack as 'Attack',
+IO.MagicAttack as 'MagicAttack',
+IO.MaxHP as 'MaxHP',
+IO.MaxHpPct as 'MaxHpPct',
+IO.MaxMP as 'MaxMP',
+IO.MaxMpPct as 'MaxMpPct',
+100 as 'HitRate',
+100 as 'AvoidRate',
+IO.Str as 'Str',
+IO.Sta as 'Sta',
+IO.Dex as 'Dex',
+IO.Intel as 'Intel',
+IO.Cha as 'Cha',
+IO.FireR as 'FireR',
+IO.ColdR as 'ColdR',
+IO.LightningR as 'LightningR',
+IO.MagicR as 'MagicR',
+IO.DiseaseR as 'DiseaseR',
+IO.PoisonR as 'PoisonR',
+IO.ExpPct as 'ExpPct',
+IO.LoyaltyPct as 'LoyaltyPct',
+0 as 'SpecialAmount'
+from {BASE_TABLE_NAME} IO order by IO.MagicNum asc
+
+

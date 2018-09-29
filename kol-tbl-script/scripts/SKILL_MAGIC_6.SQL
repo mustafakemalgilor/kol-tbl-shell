@@ -1,0 +1,35 @@
+
+SELECT
+IO.MagicNum as 'iNum',
+'empty' as 'Name',
+'empty' as 'Description',
+IO.Size as 'Size',
+IO.TransformID as 'TransformID',
+IO.Duration as 'Duration',
+IO.MaxHp as 'MaxHp',
+IO.MaxMp as 'MaxMp',
+IO.Speed as 'Speed',
+IO.AttackSpeed as 'AttackSpeed',
+IO.TotalHit as 'TotalHit',
+IO.TotalAc as 'TotalAc',
+IO.TotalHitRate as 'TotalHitRate',
+IO.TotalEvasionRate as 'TotalEvasionRate',
+IO.TotalFireR as 'TotalFireR',
+IO.TotalColdR as 'TotalColdR',
+IO.TotalLightningR as 'TotalLightningR',
+IO.TotalMagicR as 'TotalMagicR',
+IO.TotalDiseaseR as 'TotalDiseaseR',
+IO.TotalPoisonR as 'TotalPoisonR',
+IO.Class as 'Class',
+IO.TransformType as 'TransformType',
+IO.UserSkillUse as 'UserSkillUse',
+IO.NeedItem as 'NeedItem',
+IO.SkillSuccessRate as 'SkillSuccessRate',
+IO.MonsterFriendly as 'MonsterFriendly',
+IO.WeaponLeftHand as 'WeaponLeftHand',
+IO.WeaponRightHand as 'WeaponRightHand',
+IO.Nation as 'Nation',
+1 as 'CastingMultiplier'
+from {BASE_TABLE_NAME} IO order by IO.MagicNum asc
+
+

@@ -90,6 +90,7 @@ SELECT DISTINCT
 	IE.ResistMagic AS `MagicR`,
 	IE.ResistPoison AS `PoisonR`,
 	IE.ResistCurse AS `CurseR`,
+	IO.ItemGrade as `ItemGrade`,
 	IE.SkillOption AS `SkillOption`,
 	IE.UnboundCount AS `UnboundCount`
 FROM

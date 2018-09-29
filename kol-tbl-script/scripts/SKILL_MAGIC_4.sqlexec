@@ -1,0 +1,24 @@
+{
+	"Description": "Generate MAGIC_TYPE4 table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "MAGIC_TYPE4",
+	"Scripts": {
+		"MAGIC_TYPE4 table generator": "SKILL_MAGIC_4.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"skill_magic_4"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}

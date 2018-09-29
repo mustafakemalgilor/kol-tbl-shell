@@ -1,0 +1,24 @@
+{
+	"Description": "Generate MAGIC_TYPE6 table by merging base and extension tables.",
+	"Author" : "Mustafa Kemal GILOR",
+	"Version": "1.0",
+	"Target" : "MAGIC_TYPE6",
+	"Scripts": {
+		"MAGIC_TYPE6 table generator": "SKILL_MAGIC_6.sql"
+	},
+	"Declarations":
+	[
+		{
+			"Name":"{BASE_TABLE_NAME}",
+			"Value" :"skill_magic_6"
+		}
+	],
+	"Counters": 
+	[
+		{
+			"Tag": "$",
+			"Start": "0",
+			"End": "0"
+		}
+	]
+}
