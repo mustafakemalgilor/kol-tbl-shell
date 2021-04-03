@@ -42,7 +42,44 @@
 				"UnknownByte2":"uint8",
 				"UnknownByte3":"uint8"
 			}
-		}
+		},
+        {
+      "DESCRIPTION": "v1298 columns",
+      "COUNT": "30",
+      "COLUMNS": 
+	      {
+	      		"MagicNum": "uint32",
+				"KrName": "string",
+				"EnName": "string",
+				"Description": "string",
+				"SelfAni1": "int32",
+				"BeforeAction": "int32",
+				"TargetAction": "int32",
+				"SelfEffect1": "int32",
+				"SelfPart1": "int32",
+				"SelfEffect2": "int32",
+				"SelfPart2": "int32",
+				"FlyingEffect": "int32",
+				"TargetEffect": "int32",
+				"TargetPart": "int32",
+				"Moral": "int32",
+				"SkillLevel": "int32",
+				"Skill": "int32",
+				"MSP": "int32",
+				"HP": "int32",
+				"ItemGroup": "uint32",
+				"UseItem": "uint32",
+				"CastTime": "int32",
+				"RecastTime": "int32",
+				"TempMemory1": "float",
+				"TempMemory2": "float",
+				"SuccessRate": "int32",
+				"Type1": "uint32",
+				"Type2": "uint32",
+				"Range": "int32",
+				"Etc": "int32"
+	    }
+    }
 
 	]
 }

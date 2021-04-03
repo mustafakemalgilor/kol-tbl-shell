@@ -1,5 +1,6 @@
 {
-	"COLUMNSET": [{
+	"COLUMNSET": [
+		{
 			"DESCRIPTION": "v2190 columns",
 			"COUNT": "29",
 			"COLUMNS": {
@@ -32,6 +33,40 @@
 				"WeaponLeftHand": "uint32",
 				"WeaponRightHand": "uint32",
 				"Nation":"int32"
+			}
+		},
+		{
+			"DESCRIPTION": "v1298 columns",
+			"COUNT": "28",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Name": "string",
+				"Description": "string",
+				"Size": "int32",
+				"TransformID": "int32",
+				"Duration": "int32",
+				"MaxHp": "int32",
+				"MaxMp": "int32",
+				"Speed": "int32",
+				"AttackSpeed": "int32",
+				"TotalHit": "int32",
+				"TotalAc": "int32",
+				"TotalHitRate": "int32",
+				"TotalEvasionRate": "int32",
+				"TotalFireR": "int32",
+				"TotalColdR": "int32",
+				"TotalLightningR": "int32",
+				"TotalMagicR": "int32",
+				"TotalDiseaseR": "int32",
+				"TotalPoisonR": "int32",
+				"TransformType": "uint8",
+				"Class": "int32",
+				"UserSkillUse": "int32",
+				"NeedItem": "int32",
+				"SkillSuccessRate": "int32",
+				"MonsterFriendly": "uint8",
+				"WeaponLeftHand": "uint32",
+				"WeaponRightHand": "uint32"
 			}
 		}
 

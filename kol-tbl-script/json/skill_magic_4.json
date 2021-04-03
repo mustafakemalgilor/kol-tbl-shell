@@ -1,5 +1,6 @@
 {
-	"COLUMNSET": [{
+	"COLUMNSET": [
+		{
 			"DESCRIPTION": "v2190 columns",
 			"COUNT": "27",
 			"COLUMNS": {
@@ -30,6 +31,38 @@
 				"PoisonR": "int32",
 				"ExpPct": "int32",
 				"LoyaltyPct": "int32"
+			}
+		},
+		{
+			"DESCRIPTION": "v1298 columns",
+			"COUNT": "26",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"BuffType": "string",
+				"Radius": "string",
+				"Duration": "int32",
+				"AttackSpeed": "int32",
+				"Speed": "int32",
+				"AC": "int32",
+				"ACPct": "int32",
+				"Attack": "int32",
+				"MagicAttack": "int32",
+				"MaxHP": "int32",
+				"MaxHpPct": "int32",
+				"MaxMP": "int32",
+				"MaxMpPct": "int32",
+				"Str": "int32",
+				"Sta": "int32",
+				"Dex": "int32",
+				"Intel": "int32",
+				"Cha": "int32",
+				"FireR": "int32",
+				"ColdR": "int32",
+				"LightningR": "int32",
+				"MagicR": "int32",
+				"DiseaseR": "int32",
+				"PoisonR": "int32",
+				"ExpPct": "int32"
 			}
 		}
 

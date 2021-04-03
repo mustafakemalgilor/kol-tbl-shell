@@ -1,0 +1,11 @@
+{
+	"COLUMNSET": [{
+			"DESCRIPTION": "v1298 columns",
+			"COUNT": "2",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Unknown": "int32"
+			}
+		}
+	]
+}

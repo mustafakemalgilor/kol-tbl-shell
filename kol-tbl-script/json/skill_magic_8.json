@@ -7,6 +7,16 @@
 				"WarpType": "uint8",
 				"KickDistance": "int32"
 			}
+		},
+		{
+			"DESCRIPTION": "v1298 columns",
+			"COUNT": "4",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"iUnknown":"int32",
+				"WarpType": "uint8",
+				"KickDistance": "int32"
+			}
 		}
 
 	]

@@ -1,9 +1,21 @@
 {
-	"COLUMNSET": [{
+	"COLUMNSET": [
+		{
 			"DESCRIPTION": "v2190 columns",
 			"COUNT": "4",
 			"COLUMNS": {
 				"MagicNum": "uint32",
+				"Type": "int32",
+				"ExpRecover": "int32",
+				"NeedStone": "int32"
+			}
+		},
+		{
+			"DESCRIPTION": "v1298 columns",
+			"COUNT": "5",
+			"COLUMNS": {
+				"MagicNum": "uint32",
+				"Name":"string",
 				"Type": "int32",
 				"ExpRecover": "int32",
 				"NeedStone": "int32"

@@ -1,6 +1,6 @@
 {
 	"COLUMNSET": [{
-			"DESCRIPTION": "v2190 columns",
+			"DESCRIPTION": "All version columns",
 			"COUNT": "14",
 			"COLUMNS": {
 				"MagicNum": "uint32",

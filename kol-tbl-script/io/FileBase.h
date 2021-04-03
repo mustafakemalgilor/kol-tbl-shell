@@ -1,4 +1,12 @@
-
+/**
+ * ______________________________________________________
+ * This file is part of ko-tbl-shell project.
+ * 
+ * @author       Mustafa Kemal Gılor <mustafagilor@gmail.com> (2015)
+ * .
+ * SPDX-License-Identifier:	MIT
+ * ______________________________________________________
+ */
 
 #include <string>
 #include <stdio.h>
